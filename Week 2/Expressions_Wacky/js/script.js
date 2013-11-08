@@ -8,3 +8,4 @@
 
 var regularGoals = prompt ("");
 var powerPlayGoals = prompt ("");
+var opposingPowerPlay = prompt ("");
