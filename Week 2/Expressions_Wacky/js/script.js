@@ -9,3 +9,5 @@
 var regularGoals = prompt ("");
 var powerPlayGoals = prompt ("");
 var opposingPowerPlay = prompt ("");
+
+var points = regularGoals + (powerPlayGoals*2) - (opposingPowerPlay*2)
