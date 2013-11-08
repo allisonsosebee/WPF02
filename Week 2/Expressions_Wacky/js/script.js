@@ -15,3 +15,4 @@ var opposingPowerPlay = prompt ("");
 
 //the equation used to calculate players' points
 var points = regularGoals + (powerPlayGoals*2) - (opposingPowerPlay*2)
+var result = "";
