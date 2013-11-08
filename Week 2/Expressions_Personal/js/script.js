@@ -14,3 +14,4 @@ var width = prompt ("Next, how wide is your sidewalk in feet?");
 var length = prompt ("Lastly, please enter the length of your sidewalk in feet:");
 
 
+var bags = width*length/salt;
