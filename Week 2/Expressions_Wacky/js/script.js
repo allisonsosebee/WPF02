@@ -11,7 +11,7 @@ var regularGoals = prompt ("To find your total points, please enter the number \
 //the second variable in the equation- the number of power play goals scored while player was on the ice
 var powerPlayGoals = prompt ("Next, enter the number of Power Play goals \nscored by your team while you were on the ice:");
 //the third variable in the equation- the number of power play goals scored by the opposing team while player was on the ice
-var opposingPowerPlay = prompt ("");
+var opposingPowerPlay = prompt ("Lastly, please enter the number of Power Play goals \nscored against your team while you were on the ice:");
 
 //the equation used to calculate players' points
 var points = regularGoals + (powerPlayGoals*2) - (opposingPowerPlay*2)
