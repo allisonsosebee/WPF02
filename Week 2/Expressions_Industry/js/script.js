@@ -8,5 +8,6 @@
 
 var iCameras = prompt ("");
 var pCameras = prompt ("");
+var month = prompt ("");
 
 
