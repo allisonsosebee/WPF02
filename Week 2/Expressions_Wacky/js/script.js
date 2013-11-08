@@ -4,3 +4,5 @@
 //WPF-02
 
 //Calculator Use:
+//Use this calculator to determine the number of points a hockey player has earned during a game.
+
