@@ -7,3 +7,4 @@
 //Use this calculator to determine if you've met your sales goal for the day.
 
 var goal = Number: 481;
+var sale = prompt ("");
