@@ -6,4 +6,7 @@
 //Calculator Use:
 //How to calculate initial payment for monitoring services at Stealth Monitoring Company
 
+var iCameras = prompt ("");
+
+
 
