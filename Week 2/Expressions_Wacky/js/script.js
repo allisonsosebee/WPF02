@@ -8,6 +8,7 @@
 
 //the first variable in the equation- the number of goals scored while player was on the ice
 var regularGoals = prompt ("");
+//the second variable in the equation- the number of power play goals scored while player was on the ice
 var powerPlayGoals = prompt ("");
 var opposingPowerPlay = prompt ("");
 
