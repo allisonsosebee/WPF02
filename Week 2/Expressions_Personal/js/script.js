@@ -8,4 +8,4 @@
 
 var salt = prompt ("To find the amount of salt you'll need for your sidewalk, please enter the amount of square feet each bag will cover:")
 var width = prompt ("Next, how wide is your sidewalk in feet?")
-var length = prompt ("")
+var length = prompt ("Lastly, please enter the length of your sidewalk in feet:")
