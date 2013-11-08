@@ -15,5 +15,5 @@ var opposingPowerPlay = prompt ("Lastly, please enter the number of Power Play g
 
 //the equation used to calculate players' points
 var points = regularGoals + (powerPlayGoals*2) - (opposingPowerPlay*2)
-var result = "";
+var result = "You earned a total of " + points + " points during your game.";
 alert (result);
