@@ -6,5 +6,6 @@
 //Calculator Use:
 //How many bags of salt will you need to cover your icy sidewalk?
 
+var salt = prompt ("")
 var width = prompt ("")
 var length = prompt ("")
