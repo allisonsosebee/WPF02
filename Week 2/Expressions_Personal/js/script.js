@@ -16,4 +16,4 @@ var length = prompt ("Lastly, please enter the length of your sidewalk in feet:"
 //the equation used to find the number of bags needed
 var bags = width*length/salt;
 var result = "You will need " + bags + " of salt to cover your sidewalk.";
-alert result
+alert (result);
