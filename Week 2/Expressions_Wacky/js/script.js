@@ -13,4 +13,5 @@ var powerPlayGoals = prompt ("");
 //the third variable in the equation- the number of power play goals scored by the opposing team while player was on the ice
 var opposingPowerPlay = prompt ("");
 
+//the equation used to calculate players' points
 var points = regularGoals + (powerPlayGoals*2) - (opposingPowerPlay*2)
