@@ -11,5 +11,6 @@ var pCameras = prompt ("");
 var month = prompt ("");
 
 var cost = (iCameras * 500) + (pCameras * 1000) + (month * 5000)
+var result = "";
 
 
