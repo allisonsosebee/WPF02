@@ -4,3 +4,5 @@
 //WPF-02
 
 //Calculator Use:
+//This calculator will determine a driver's commute time with construction traffic
+
