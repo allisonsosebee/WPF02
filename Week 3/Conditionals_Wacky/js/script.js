@@ -13,5 +13,6 @@ var time = prompt("Please enter the number of years you have worked for your emp
 //the third variable used in the equation-whether or not the employee is eligible
 var answer;
 
+//ternary used to decide if employee qualifies
 answer = (age >= 65 || time>= 5) ? "Congratulations! You qualify!" : "Sorry, you do not yet qualify."
 alert (answer);
