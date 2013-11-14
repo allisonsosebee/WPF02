@@ -9,4 +9,6 @@
 var numItems = prompt("To find the discounted price of your purchase, \nPlease enter the number of items you purchased:");
 var cost = prompt("Please enter the total cost of your items before tax:");
 
+if (numItems <= 1){
+
 
