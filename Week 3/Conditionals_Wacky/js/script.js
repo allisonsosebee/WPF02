@@ -15,4 +15,5 @@ var answer;
 
 //ternary used to decide if employee qualifies and alert
 answer = (age >= 65 || time>= 5) ? "Congratulations! You qualify!" : "Sorry, you do not yet qualify."
+//alert that will display result to user
 alert (answer);
