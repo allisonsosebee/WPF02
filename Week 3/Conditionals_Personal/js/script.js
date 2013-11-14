@@ -13,3 +13,5 @@ var time = prompt("Enter time of day you will be driving");
 //the third variable used in the equation- the new drive time with construction traffic
 var driveTime;
 
+//the commute will take longer during rush hour
+if (time >= 4 && time < 6){
