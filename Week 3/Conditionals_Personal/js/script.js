@@ -23,4 +23,6 @@ if (time >= 4 && time < 6){
     alert (result);
 //the commute should be the same without rush hour traffic
 }else{
+    //result prompt to let user know total cost after discount
+    var result = "Your commute should take " +commute+ " minutes!"
     
