@@ -8,3 +8,6 @@
 
 //the first variable used in the equation- the number of items to be purchased
 var commute = prompt("Enter your usual commute time in minutes:");
+//the second variable used in the equation- the total cost of items to be purchased before tax
+var time = prompt("Enter time of day you will be driving");
+//the third variable used in the equation- the new drive time with construction traffic
