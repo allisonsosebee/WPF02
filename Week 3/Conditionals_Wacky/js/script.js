@@ -10,6 +10,7 @@
 var age = prompt("To find if you're eligible for retirement or \nhealth benefits, Please enter your age:");
 //the second variable used in the equation- the number of years working for the company
 var time = prompt("Please enter the number of years you have worked for your employer:");
+//the third variable used in the equation
 var answer;
 
 answer = (age >= 65 || time>= 5) ? "Congratulations! You qualify!" : "Sorry, you do not yet qualify."
