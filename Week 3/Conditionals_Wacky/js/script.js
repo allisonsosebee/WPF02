@@ -10,4 +10,4 @@ var age = prompt("To find if you're eligible for retirement or \nhealth benefits
 var time = prompt("Please enter the number of years you have worked for your employer:");
 var answer;
 
-answer = (age >= 65 || time>= 5) ? "Congratulations! You qualify!"
+answer = (age >= 65 || time>= 5) ? "Congratulations! You qualify!" : "Sorry, you do not yet qualify."
