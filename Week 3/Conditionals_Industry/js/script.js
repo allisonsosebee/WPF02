@@ -13,5 +13,5 @@ if (numItems <= 1){
     var total = cost * 0.90;
     var result = "Your total is $" + total;
     alert (result);
-
-
+}else if (numItems > 1 && numItems <= 2){
+    
