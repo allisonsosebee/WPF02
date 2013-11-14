@@ -15,3 +15,6 @@ var driveTime;
 
 //the commute will take longer during rush hour
 if (time >= 4 && time < 6){
+    //the equation used to find the discount based on number of items
+    var driveTime = commute * 1.89;
+    
