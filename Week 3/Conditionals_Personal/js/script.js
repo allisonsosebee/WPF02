@@ -21,3 +21,6 @@ if (time >= 4 && time < 6){
     var result = "Your commute will take " +driveTime+ " minutes, better leave early!"
     //alert that will display result to user
     alert (result);
+//the commute should be the same without rush hour traffic
+}else{
+    
