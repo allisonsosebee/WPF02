@@ -17,6 +17,7 @@ if (numItems <= 1){
     var total = cost * 0.90;
     //result prompt to let user know total cost after discount
     var result = "Your total is $" + total;
+    //alert that will display result to user
     alert (result);
 //two items get a discount of 20% off the total before tax
 }else if (numItems > 1 && numItems <= 2){
@@ -24,6 +25,7 @@ if (numItems <= 1){
     var total = cost * 0.80;
     //result prompt to let user know total cost after discount
     var result = "Your total is $" + total;
+    //alert that will display result to user
     alert (result);
 //three items get a discount of 30% off the total before tax
 }else{
@@ -31,6 +33,7 @@ if (numItems <= 1){
     var total = cost * 0.70;
     //result prompt to let user know total cost after discount
     var result = "Your total is $" + total;
+    //alert that will display result to user
     alert (result);
 }
 
