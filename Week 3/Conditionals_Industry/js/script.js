@@ -13,16 +13,19 @@ var cost = prompt("Please enter the total cost of your items before tax:");
 
 //one item or less gets a discount of 10% off the total before tax
 if (numItems <= 1){
+    //the equation used to find the discount based on number of items
     var total = cost * 0.90;
     var result = "Your total is $" + total;
     alert (result);
 //two items get a discount of 20% off the total before tax
 }else if (numItems > 1 && numItems <= 2){
+    //the equation used to find the discount based on number of items
     var total = cost * 0.80;
     var result = "Your total is $" + total;
     alert (result);
 //three items get a discount of 30% off the total before tax
 }else{
+    //the equation used to find the discount based on number of items
     var total = cost * 0.70;
     var result = "Your total is $" + total;
     alert (result);
