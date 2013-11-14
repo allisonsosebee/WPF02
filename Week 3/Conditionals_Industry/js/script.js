@@ -4,3 +4,6 @@
 //WPF-02
 
 //Calculator Use:
+//Determine the total cost after discount depending on number of items sold.
+
+
