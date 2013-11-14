@@ -22,5 +22,5 @@ if (numItems <= 1){
     var result = "Your total is $" + total;
     alert (result);
 }
-}
+
 
