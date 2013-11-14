@@ -8,6 +8,7 @@
 
 //the first variable used in the equation- the age of the user
 var age = prompt("To find if you're eligible for retirement or \nhealth benefits, Please enter your age:");
+//the second variable used in the equation
 var time = prompt("Please enter the number of years you have worked for your employer:");
 var answer;
 
