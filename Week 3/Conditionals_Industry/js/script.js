@@ -10,5 +10,8 @@ var numItems = prompt("To find the discounted price of your purchase, \nPlease e
 var cost = prompt("Please enter the total cost of your items before tax:");
 
 if (numItems <= 1){
+    var total = cost * 0.90;
+    var result = "Your total is $" + total;
+    alert (result);
 
 
