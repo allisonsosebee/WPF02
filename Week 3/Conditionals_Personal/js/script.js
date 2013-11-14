@@ -25,4 +25,6 @@ if (time >= 4 && time < 6){
 }else{
     //result prompt to let user know total cost after discount
     var result = "Your commute should take " +commute+ " minutes!"
-    
+    //alert that will display result to user
+    alert (result);
+}
