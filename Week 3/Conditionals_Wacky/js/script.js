@@ -8,3 +8,4 @@
 
 var age = prompt("To find if you're eligible for retirement or \nhealth benefits, Please enter your age:");
 var time = prompt("Please enter the number of years you have worked for your employer:");
+var answer;
