@@ -17,4 +17,6 @@ var driveTime;
 if (time >= 4 && time < 6){
     //the equation used to find the discount based on number of items
     var driveTime = commute * 1.89;
+    //result prompt to let user know total cost after discount
+    var result = "Your commute will take " +driveTime+ " minutes, better leave early!"
     
