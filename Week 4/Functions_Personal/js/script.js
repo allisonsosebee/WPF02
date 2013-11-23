@@ -8,6 +8,7 @@
 
 //function and 3 parameters used within
 function tipCalc (entrees, drinks, percent){
+    //calling out variable "tip"
     var tip;
     tip = ((entrees + drinks) * percent);
     var result = ("You should leave $" + tip + "for gratuity.");
