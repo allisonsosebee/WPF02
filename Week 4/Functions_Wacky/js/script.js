@@ -14,7 +14,8 @@ function temperature (hi, lo){
 
     if (avgTemp < 45){
         var result = ("Wear a coat and gloves, it's going to be chilly.");
-        console.log (result);
+        //alert to display response
+        alert (result);
     }else if (avgTemp >= 45 && avgTemp <= 65){
         var result = ("Be sure to pack a light jacket, you might need it.");
         //alert to display response
