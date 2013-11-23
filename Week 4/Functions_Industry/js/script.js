@@ -18,8 +18,9 @@ var salesGoal = function (goal, sales){
     //function spitting out info
     return answer;
 }
-
+//user input #1 - sales goal
 var goal = prompt ("What is your sales goal for today?");
+//user input #2 - amount sold
 var sales = prompt ("How much have you sold so far?");
 salesGoal (goal, sales);
 
