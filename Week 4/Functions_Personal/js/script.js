@@ -10,6 +10,7 @@
 function tipCalc (entrees, drinks, percent){
     //calling out variable "tip"
     var tip;
+    //equation used to determine answer
     tip = ((entrees + drinks) * percent);
     var result = ("You should leave $" + tip + "for gratuity.");
     alert (tip);
