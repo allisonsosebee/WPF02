@@ -17,6 +17,7 @@ function temperature (hi, lo){
         console.log (result);
     }else if (avgTemp >= 45 && avgTemp <= 65){
         var result = ("Be sure to pack a light jacket, you might need it.");
+        //alert to display response
         alert (result);
     }else{
         var result = ("The weather should be nice today, no jacket needed!");
