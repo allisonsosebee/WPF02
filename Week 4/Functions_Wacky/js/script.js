@@ -21,6 +21,7 @@ function temperature (hi, lo){
         //alert to display response
         alert (result);
     }else{
+        //response displayed to user
         var result = ("The weather should be nice today, no jacket needed!");
         //alert to display response
         alert (result);
