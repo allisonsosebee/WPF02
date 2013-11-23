@@ -4,7 +4,7 @@
 //WPF-02
 
 //Calculator Use:
-
+//Use this calculator to see how you should dress for the weather today
 
 var avgTemp = temperature;
 
