@@ -6,10 +6,11 @@
 //Calculator Use:
 //Use this calculator to figure out gratuity at a restaurant
 
+//function and 3 parameters used within
 function tipCalc (entrees, drinks, percent){
     var tip;
     tip = ((entrees + drinks) * percent);
-    var result = ("You should leave $" + tip + "for gratuity.")
+    var result = ("You should leave $" + tip + "for gratuity.");
     alert (tip);
 
 }
