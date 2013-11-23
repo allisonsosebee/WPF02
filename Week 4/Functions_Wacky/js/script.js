@@ -6,12 +6,13 @@
 //Calculator Use:
 //Use this calculator to see how you should dress for the weather today
 
+
 var avgTemp = temperature;
 
 function temperature (hi, lo){
 
     avgTemp = ((hi + lo)/2);
-
+    //conditional if statement
     if (avgTemp < 45){
         //response displayed to user
         var result = ("Wear a coat and gloves, it's going to be chilly.");
