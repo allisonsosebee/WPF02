@@ -17,6 +17,7 @@ function temperature (hi, lo){
         //alert to display response
         alert (result);
     }else if (avgTemp >= 45 && avgTemp <= 65){
+        //response displayed to user
         var result = ("Be sure to pack a light jacket, you might need it.");
         //alert to display response
         alert (result);
