@@ -14,6 +14,7 @@ function tipCalc (entrees, drinks, percent){
     tip = ((entrees + drinks) * percent);
     //response displayed to user
     var result = ("You should leave $" + tip + "for gratuity.");
+    //alert to display response
     alert (tip);
 
 }
