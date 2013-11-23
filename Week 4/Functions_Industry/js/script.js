@@ -11,6 +11,7 @@
 var salesGoal = function (goal, sales){
     //calling out the variable "answer"
     var answer;
+    //ternary used to determine correct response
     answer = (goal > sales || goal <= sales) ? "Keep it up, you haven't met your goal yet!" : "Congratulations! You met your goal for the day!"
     alert (answer);
     return answer;
