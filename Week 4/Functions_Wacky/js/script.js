@@ -6,11 +6,11 @@
 //Calculator Use:
 //Use this calculator to see how you should dress for the weather today
 
-
+//link to function
 var avgTemp = temperature;
-
+//function with parameters
 function temperature (hi, lo){
-
+    //equation to find average temperature
     avgTemp = ((hi + lo)/2);
     //conditional if statement
     if (avgTemp < 45){
