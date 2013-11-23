@@ -20,6 +20,7 @@ function temperature (hi, lo){
         alert (result);
     }else{
         var result = ("The weather should be nice today, no jacket needed!");
+        //alert to display response
         alert (result);
     }
 }
