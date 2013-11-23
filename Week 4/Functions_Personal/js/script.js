@@ -4,7 +4,7 @@
 //WPF-02
 
 //Calculator Use:
-
+//Use this calculator to figure out gratuity at a restaurant
 
 function tipCalc (entrees, drinks, percent){
     var tip;
