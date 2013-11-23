@@ -23,6 +23,7 @@ function temperature (hi, lo){
         var result = ("Be sure to pack a light jacket, you might need it.");
         //alert to display response
         alert (result);
+    //conditional else statement
     }else{
         //response displayed to user
         var result = ("The weather should be nice today, no jacket needed!");
