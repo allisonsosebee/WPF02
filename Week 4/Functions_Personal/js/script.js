@@ -24,6 +24,7 @@ var entrees = prompt ("What was the total cost of entrees?");
 var drinks = prompt ("What was the total cost of drinks?");
 //user input #3 - preferred tip percentage
 var percent = prompt ("What percent would you like to leave for gratuity? \n     (.15 = poor, .20 = average, .25 = excellent)");
+//arguments used to link to function
 tipCalc (entrees, drinks, percent);
 
 
