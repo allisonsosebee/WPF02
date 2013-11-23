@@ -3,21 +3,20 @@
 //November 21, 2013
 //WPF-02
 
-Calculator Use:
+//Calculator Use:
 
-var final = salesGoal;
 
-function salesGoal (goal, sales){
-    //var difference = goal - sales;
-    //var answer;
 
-    answer = (sales < goal || sales >= goal) ? "Keep it up, you haven't met your goal yet!" : "Congratulations! You met your goal for the day!"
+//anonymous function with parameters
+var salesGoal = function (goal, sales){
+    var answer;
+
+    answer = (goal > sales || goal <= sales) ? "Keep it up, you haven't met your goal yet!" : "Congratulations! You met your goal for the day!"
     alert (answer);
     return answer;
 }
 
-var goal = prompt ("What is you sales goal for today?");
+var goal = prompt ("What is your sales goal for today?");
 var sales = prompt ("How much have you sold so far?");
 salesGoal (goal, sales);
 
-alert (final);

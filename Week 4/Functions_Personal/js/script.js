@@ -6,57 +6,17 @@
 //Calculator Use:
 
 
-var final = dollarsToEuros;
+function tipCalc (entrees, drinks, percent){
+    var tip;
+    tip = ((entrees + drinks) * percent);
+    var result = ("You should leave $" + tip + "for gratuity.")
+    alert (tip);
 
-function dollarsToEuros (dollars){
-    var euros = dollars * 0.74;
-    var result = ("You have " + euros + " Euros.");
-    alert (result);
-    return euros;
 }
 
-var dollars = prompt ("Enter the amount of U.S. Dollars you would like to convert:");
-dollarsToEuros (dollars);
-
-alert (final);
-
-
-
-/* 2nd attempt
-
-var total = converter (1);
-
-function converter (dollars){
-    var euros = dollars * 0.74;
-    return euros;
-}
-console.log (total);
-*/
+var entrees = prompt ("What was the total cost of entrees?");
+var drinks = prompt ("What was the total cost of drinks?");
+var percent = prompt ("What percent would you like to leave for gratuity? \n     (.15 = poor, .20 = average, .25 = excellent)");
+tipCalc (entrees, drinks, percent);
 
 
-
-/* 3rd attempt
-
-var euros;
-
-function convert (){
-    var dollars = prompt ("Enter the amount of U.S. Dollars you would like to convert:");
-    euros = dollars * 0.74;
-    return (euros);
-}
-console.log (euros);
-*/
-
-
-
-/*
-converter = prompt ("Enter the amount of U.S. Dollars you would like to convert:");
-var final = converter;
-
-function converter (dollars){
-    var euros = dollars * 0.74;
-    return euros;
-}
-
-alert (final);
-*/

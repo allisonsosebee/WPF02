@@ -14,6 +14,26 @@ var time = prompt("Please enter the number of years you have worked for your emp
 var answer;
 
 //ternary used to decide if employee qualifies and alert
-answer = (age >= 65 || time>= 5) ? "Congratulations! You qualify!" : "Sorry, you do not yet qualify."
+answer = (age >= 65 || time >= 5) ? "Congratulations! You qualify!" : "Sorry, you do not yet qualify."
 //alert that will display result to user
 alert (answer);
+
+
+/*
+ var final = dollarsToEuros;
+
+ function dollarsToEuros (dollars){
+ var euros = dollars * 0.74;
+ var result = ("You have " + euros + " Euros.");
+ alert (result);
+ return euros;
+ }
+
+ var dollars = prompt ("Enter the amount of U.S. Dollars you would like to convert:");
+ dollarsToEuros (dollars);
+
+ alert (final);
+
+
+ //needs 3 parameters
+ */
