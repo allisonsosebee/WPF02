@@ -22,5 +22,6 @@ var salesGoal = function (goal, sales){
 var goal = prompt ("What is your sales goal for today?");
 //user input #2 - amount sold
 var sales = prompt ("How much have you sold so far?");
+//arguments to connect to function
 salesGoal (goal, sales);
 
