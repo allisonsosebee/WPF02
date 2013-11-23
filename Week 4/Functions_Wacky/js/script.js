@@ -13,6 +13,7 @@ function temperature (hi, lo){
     avgTemp = ((hi + lo)/2);
 
     if (avgTemp < 45){
+        //response displayed to user
         var result = ("Wear a coat and gloves, it's going to be chilly.");
         //alert to display response
         alert (result);
