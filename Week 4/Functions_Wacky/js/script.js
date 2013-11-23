@@ -24,7 +24,9 @@ function temperature (hi, lo){
     }
 }
 
+//user input #1 - highest temperature
 var hi = prompt("What is the highest temperature predicted for today?");
+//user input #2 - lowest temperature
 var lo = prompt("What is the lowest temperature predicted for today?");
 //arguments to link to function
 temperature (hi, lo);
